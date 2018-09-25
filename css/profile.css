@@ -51,4 +51,9 @@ hr.star-light::after{
 	background-color:black;
 }
 
+@media screen and (max-width:760px) {
+  .visible-change{
+    display: none;
+}
 
+}
