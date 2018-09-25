@@ -21,7 +21,7 @@ var myLineChart = new Chart(ctxD, {
         },        
         legend: {
                 display: true,
-                position: 'right',
+                position: 'top',
             labels:{
                 fontSize:20,
                 fontFamily:"Lato",
