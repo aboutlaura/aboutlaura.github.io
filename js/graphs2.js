@@ -3,10 +3,10 @@ var ctxD = document.getElementById("doughnutChart").getContext('2d');
 var myLineChart = new Chart(ctxD, {
     type: 'doughnut',
     data: {
-        labels: ["Research", "Analysis", "Task Automation", "Web Design and Creative Writing"],
+        labels: ["Research", "Design and Creative Writing", "Task Automation"],
         datasets: [
             {
-                data: [40, 20, 20, 20],
+                data: [40, 30, 30],
                 backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
                 hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
             }
