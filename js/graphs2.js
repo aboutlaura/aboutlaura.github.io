@@ -3,7 +3,7 @@ var ctxD = document.getElementById("doughnutChart").getContext('2d');
 var myLineChart = new Chart(ctxD, {
     type: 'doughnut',
     data: {
-        labels: ["Researcher", "Designer and Creative Writer", "Digital Marketer", "Scripting problem solver"],
+        labels: ["Researcher", "Designer and Creative Writer", "Digital Marketer", "Problem solver - coder"],
         datasets: [
             {
                 data: [30, 30, 20, 20],
